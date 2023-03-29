@@ -1,0 +1,97 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+.col-1{
+    flex-basis: 35%;
+    background-image: url('/assets/images/background.png');
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    padding: 40px;
+    color: white;
+}
+
+.col-2{
+    flex-basis: 60%;
+    flex-grow: 1;
+    background-image: url('/assets/images/music.png');
+    background-position: bottom;
+    padding: 40px 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+  width: 80px;
+  cursor: pointer;
+}
+.search{
+    width: 30px;
+    cursor: pointer;
+}
+.text{
+    width: 70%;
+    margin: 180px auto 0;
+
+}
+.text a{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.text a img{
+    width: 60px;
+    margin-right: 50px;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.text p{
+    font-size: 12px;
+    line-height: 24px;
+    margin: 30px 0;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.text-right{
+    margin-top: 200px;
+}
+.text-right h1{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.text-right h4{
+    margin: 10px 0;
+}
+.btn-learn-more{
+    background-color: orangered;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+ul li a{
+    text-decoration: none;
+}
+.btn-book-your-trip{
+    border: 2px solid orangered;
+    padding: 10px 20px;
+}
